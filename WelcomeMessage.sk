@@ -1,0 +1,2 @@
+on Player join:
+ send message "Welcome to the Server"
