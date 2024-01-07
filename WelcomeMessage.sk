@@ -1,2 +1,6 @@
-on Player join:
- send message "Welcome to the Server"
+on join:
+ broadcast "%player% Has Joined the Server"
+on first join:
+ broadcast "%player% has Joined the server for thr first time! Welcome"
+on leave:
+ broadcast "%player% has Left the Server"
